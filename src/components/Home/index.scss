@@ -1,0 +1,33 @@
+.taws-home{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+.taws-img-home{
+    width: 60%;
+    max-width: 550px;
+    min-width: 200px;
+    aspect-ratio: 1/1;    
+}
+.taws-home-title{
+    font-size: clamp(8rem,18vw,15rem);
+    color: var(--text-color);
+}
+
+@media screen and (max-width: 700px) {
+    .taws-home{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: baseline;
+        padding: 0 50px;
+    }
+    .taws-img-home{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    
+}

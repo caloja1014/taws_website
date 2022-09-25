@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: var(--bacground-color);
 }
 
 .App-logo {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.taws-app{
+  height: calc(100vh - 70px);
+  margin-top: 70px;
 }

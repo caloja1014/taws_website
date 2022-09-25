@@ -1,0 +1,35 @@
+:root{
+  --bacground-color: #212325;
+  --text-color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.taws-firacode-bold {
+  font-family: 'Fira Code', monospace;
+  font-weight: bold;
+}
+.taws-firacode-regular {
+  font-family: 'Fira Code', monospace;
+  font-weight: normal;
+}
+.taws-firacode-medium {
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+}
+.taws-firacode-light {
+  font-family: 'Fira Code', monospace;
+  font-weight: 300;
+}
