@@ -23,11 +23,15 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: baseline;
-        padding: 0 50px;
+        padding: 0 20px;
     }
     .taws-img-home{
         width: 50%;
         margin-bottom: 50px;
     }
     
+}
+body{
+    background-color: var(--bacground-color);
+    color: var(--text-color);
 }
