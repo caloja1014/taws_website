@@ -1,5 +1,33 @@
-.taws-member{
+.taws-directive{
     display: flex;
     width: 100%;
+    height: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+.taws-member{
+    width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.taws-title-directive{
+    font-size: 1.5rem;
+
+}
+.taws-member-title{
+   display: flex;
+   height: 10%;
+   align-items: end;
+   padding-left: 4%;
+}
+@media (max-width: 700px) {
+    .taws-directive{
+        flex-wrap: wrap;
+    }
+    .taws-member-title{
+        justify-content: center;
+        align-items: center;
+    }
 }
